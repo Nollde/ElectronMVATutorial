@@ -12,7 +12,7 @@ In general, there are 3 stages you need to work through in this endevor, which a
 
 2. **Train a multivariate classifier**. Traditionally we train here Boosted Decision Trees (BDTs).
    
-3. **Implement the classifier in back in CMSSW**. This step is either a straight forward copy-and-paste job if you stick with the BDT algorithm, or involves a lot of C++ programming when you choose to take another one.
+3. **Implement the classifier in CMSSW**. This step is either a straight forward copy-and-paste job if you stick with the BDT algorithm, or involves a lot of C++ programming when you choose to take another one.
    
 Here, we will tell you how to use the "ElectronMVANtuplizer" in CMSSW to create the ntuples for the training and how to train the Electron MVA with Python tools.
 
